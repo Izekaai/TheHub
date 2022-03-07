@@ -68,6 +68,9 @@ MadCity.Font = Enum.Font.SourceSans
 MadCity.Text = "MadCity"
 MadCity.TextColor3 = Color3.fromRGB(0, 0, 0)
 MadCity.TextSize = 20.000
+MadCity.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V1/main/Main2%20v1.5"))()
+end)
 
 JailBreak.Name = "JailBreak"
 JailBreak.Parent = ScriptGame
@@ -79,6 +82,9 @@ JailBreak.Font = Enum.Font.SourceSans
 JailBreak.Text = "Jailbreak"
 JailBreak.TextColor3 = Color3.fromRGB(0, 0, 0)
 JailBreak.TextSize = 20.000
+JailBreak.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V1/main/Main2%20v1.5"))()
+end)
 
 DaHood.Name = "DaHood"
 DaHood.Parent = ScriptGame
@@ -90,6 +96,9 @@ DaHood.Font = Enum.Font.SourceSans
 DaHood.Text = "DaHood"
 DaHood.TextColor3 = Color3.fromRGB(0, 0, 0)
 DaHood.TextSize = 20.000
+DaHood.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/cjdjmj/new-ui-godmode/main/README.md", true))()
+end)
 
 Arsenal.Name = "Arsenal"
 Arsenal.Parent = ScriptGame
@@ -101,6 +110,9 @@ Arsenal.Font = Enum.Font.SourceSans
 Arsenal.Text = "Arsenal"
 Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
 Arsenal.TextSize = 20.000
+Arsenal.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaytojuice/Bolts-Hub/main/Script/Free_Executors", true))()
+end)
 
 PhantomForces.Name = "PhantomForces"
 PhantomForces.Parent = ScriptGame
@@ -112,6 +124,9 @@ PhantomForces.Font = Enum.Font.SourceSans
 PhantomForces.Text = "PhantomForces"
 PhantomForces.TextColor3 = Color3.fromRGB(0, 0, 0)
 PhantomForces.TextSize = 20.000
+PhantomForces.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
 
 MM2.Name = "MM2"
 MM2.Parent = ScriptGame
@@ -123,6 +138,9 @@ MM2.Font = Enum.Font.SourceSans
 MM2.Text = "MM2"
 MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
 MM2.TextSize = 20.000
+MM2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/OtarDevv/37923c22312a786f3ac521692b412c41/raw/747834720d202a101630d8f27174dc14494970fe/Murder%2520Mystery%25202"))();
+end)
 
 BuildABoat.Name = "Build A Boat"
 BuildABoat.Parent = ScriptGame
@@ -134,6 +152,9 @@ BuildABoat.Font = Enum.Font.SourceSans
 BuildABoat.Text = "Build A Boat"
 BuildABoat.TextColor3 = Color3.fromRGB(0, 0, 0)
 BuildABoat.TextSize = 20.000
+BuildABoat.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/8aEXDfEY'))()
+end)
 
 BloxBurg.Name = "BloxBurg"
 BloxBurg.Parent = ScriptGame
@@ -145,6 +166,9 @@ BloxBurg.Font = Enum.Font.SourceSans
 BloxBurg.Text = "BloxBurg"
 BloxBurg.TextColor3 = Color3.fromRGB(0, 0, 0)
 BloxBurg.TextSize = 20.000
+BloxBurg.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/scripts/master/bloxburg.lua"))()
+end)
 
 Bedwars.Name = "Bedwars"
 Bedwars.Parent = ScriptGame
@@ -156,6 +180,9 @@ Bedwars.Font = Enum.Font.SourceSans
 Bedwars.Text = "BedWars"
 Bedwars.TextColor3 = Color3.fromRGB(0, 0, 0)
 Bedwars.TextSize = 20.000
+Bedwars.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
 
 BloxFruit.Name = "BloxFruit"
 BloxFruit.Parent = ScriptGame
@@ -167,6 +194,9 @@ BloxFruit.Font = Enum.Font.SourceSans
 BloxFruit.Text = "BloxFruit"
 BloxFruit.TextColor3 = Color3.fromRGB(0, 0, 0)
 BloxFruit.TextSize = 20.000
+BloxFruit.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
 
 PetSimX.Name = "PetSimX"
 PetSimX.Parent = ScriptGame
@@ -178,6 +208,9 @@ PetSimX.Font = Enum.Font.SourceSans
 PetSimX.Text = "Pet Simulator X"
 PetSimX.TextColor3 = Color3.fromRGB(0, 0, 0)
 PetSimX.TextSize = 20.000
+PetSimX.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://scriptblox.com/raw/SAZA-HUB_496")()
+end)
 
 ShindoLife.Name = "ShindoLife"
 ShindoLife.Parent = ScriptGame
@@ -189,6 +222,9 @@ ShindoLife.Font = Enum.Font.SourceSans
 ShindoLife.Text = "ShindoLife"
 ShindoLife.TextColor3 = Color3.fromRGB(0, 0, 0)
 ShindoLife.TextSize = 20.000
+ShindoLife.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
+end)
 
 AnimeFighterX.Name = "AnimeFighterX"
 AnimeFighterX.Parent = ScriptGame
@@ -200,6 +236,9 @@ AnimeFighterX.Font = Enum.Font.SourceSans
 AnimeFighterX.Text = "AnimeFighterSimulator"
 AnimeFighterX.TextColor3 = Color3.fromRGB(0, 0, 0)
 AnimeFighterX.TextSize = 14.000
+AnimeFighterX.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
+end)
 
 DemonFall.Name = "DemonFall"
 DemonFall.Parent = ScriptGame
@@ -211,6 +250,9 @@ DemonFall.Font = Enum.Font.SourceSans
 DemonFall.Text = "DemonFall"
 DemonFall.TextColor3 = Color3.fromRGB(0, 0, 0)
 DemonFall.TextSize = 20.000
+DemonFall.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StepBroFurious/Script/main/FuriousFall.lua"))()
+end)
 
 MeepCity.Name = "MeepCity"
 MeepCity.Parent = ScriptGame
@@ -222,6 +264,9 @@ MeepCity.Font = Enum.Font.SourceSans
 MeepCity.Text = "MeepCity"
 MeepCity.TextColor3 = Color3.fromRGB(0, 0, 0)
 MeepCity.TextSize = 20.000
+MeepCity.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bannable666/Scripts/main/Meep.txt", true))()
+end)
 
 SideBar.Name = "SideBar"
 SideBar.Parent = Main
