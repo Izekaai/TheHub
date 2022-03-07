@@ -1,0 +1,454 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local IzeKillHub = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ScriptGame = Instance.new("Frame")
+local MadCity = Instance.new("TextButton")
+local JailBreak = Instance.new("TextButton")
+local DaHood = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local PhantomForces = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local BuildABoat = Instance.new("TextButton")
+local BloxBurg = Instance.new("TextButton")
+local Bedwars = Instance.new("TextButton")
+local BloxFruit = Instance.new("TextButton")
+local PetSimX = Instance.new("TextButton")
+local ShindoLife = Instance.new("TextButton")
+local AnimeFighterX = Instance.new("TextButton")
+local DemonFall = Instance.new("TextButton")
+local MeepCity = Instance.new("TextButton")
+local SideBar = Instance.new("Frame")
+local Game = Instance.new("TextButton")
+local AdminScript = Instance.new("TextButton")
+local NonFe = Instance.new("TextButton")
+local FeScript = Instance.new("TextButton")
+local BackDoorExecutor = Instance.new("TextButton")
+local ComingSoon = Instance.new("TextButton")
+local TopBar = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Frame_2 = Instance.new("Frame")
+
+--Properties:
+
+IzeKillHub.Name = "IzeKillHub"
+IzeKillHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+IzeKillHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = IzeKillHub
+Frame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Frame.BorderColor3 = Color3.fromRGB(50, 162, 100)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.11576011, 0, 0.147252753, 0)
+Frame.Size = UDim2.new(0, 550, 0, 300)
+Frame.Active = true
+Frame.Draggable = true
+
+ScriptGame.Name = "ScriptGame"
+ScriptGame.Parent = Frame
+ScriptGame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptGame.BackgroundTransparency = 1.000
+ScriptGame.BorderSizePixel = 0
+ScriptGame.Position = UDim2.new(0.180000007, 0, 0.120234601, 0)
+ScriptGame.Size = UDim2.new(0, 450, 0, 299)
+
+MadCity.Name = "MadCity"
+MadCity.Parent = ScriptGame
+MadCity.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+MadCity.BorderSizePixel = 0
+MadCity.Position = UDim2.new(0.0444444455, 0, 0.0234113708, 0)
+MadCity.Size = UDim2.new(0, 121, 0, 41)
+MadCity.Font = Enum.Font.SourceSans
+MadCity.Text = "MadCity"
+MadCity.TextColor3 = Color3.fromRGB(0, 0, 0)
+MadCity.TextSize = 20.000
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = ScriptGame
+JailBreak.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+JailBreak.BorderSizePixel = 0
+JailBreak.Position = UDim2.new(0.337777764, 0, 0.0234113708, 0)
+JailBreak.Size = UDim2.new(0, 117, 0, 41)
+JailBreak.Font = Enum.Font.SourceSans
+JailBreak.Text = "Jailbreak"
+JailBreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak.TextSize = 20.000
+
+DaHood.Name = "DaHood"
+DaHood.Parent = ScriptGame
+DaHood.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+DaHood.BorderSizePixel = 0
+DaHood.Position = UDim2.new(0.620000124, 0, 0.0234113708, 0)
+DaHood.Size = UDim2.new(0, 151, 0, 41)
+DaHood.Font = Enum.Font.SourceSans
+DaHood.Text = "DaHood"
+DaHood.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaHood.TextSize = 20.000
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = ScriptGame
+Arsenal.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+Arsenal.BorderSizePixel = 0
+Arsenal.Position = UDim2.new(0.620000124, 0, 0.197324425, 0)
+Arsenal.Size = UDim2.new(0, 151, 0, 41)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 20.000
+
+PhantomForces.Name = "PhantomForces"
+PhantomForces.Parent = ScriptGame
+PhantomForces.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+PhantomForces.BorderSizePixel = 0
+PhantomForces.Position = UDim2.new(0.337777764, 0, 0.197324425, 0)
+PhantomForces.Size = UDim2.new(0, 117, 0, 41)
+PhantomForces.Font = Enum.Font.SourceSans
+PhantomForces.Text = "PhantomForces"
+PhantomForces.TextColor3 = Color3.fromRGB(0, 0, 0)
+PhantomForces.TextSize = 20.000
+
+MM2.Name = "MM2"
+MM2.Parent = ScriptGame
+MM2.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+MM2.BorderSizePixel = 0
+MM2.Position = UDim2.new(0.0444444455, 0, 0.197324425, 0)
+MM2.Size = UDim2.new(0, 121, 0, 41)
+MM2.Font = Enum.Font.SourceSans
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2.TextSize = 20.000
+
+BuildABoat.Name = "Build A Boat"
+BuildABoat.Parent = ScriptGame
+BuildABoat.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+BuildABoat.BorderSizePixel = 0
+BuildABoat.Position = UDim2.new(0.0444444455, 0, 0.364548504, 0)
+BuildABoat.Size = UDim2.new(0, 121, 0, 41)
+BuildABoat.Font = Enum.Font.SourceSans
+BuildABoat.Text = "Build A Boat"
+BuildABoat.TextColor3 = Color3.fromRGB(0, 0, 0)
+BuildABoat.TextSize = 20.000
+
+BloxBurg.Name = "BloxBurg"
+BloxBurg.Parent = ScriptGame
+BloxBurg.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+BloxBurg.BorderSizePixel = 0
+BloxBurg.Position = UDim2.new(0.337777764, 0, 0.364548504, 0)
+BloxBurg.Size = UDim2.new(0, 117, 0, 41)
+BloxBurg.Font = Enum.Font.SourceSans
+BloxBurg.Text = "BloxBurg"
+BloxBurg.TextColor3 = Color3.fromRGB(0, 0, 0)
+BloxBurg.TextSize = 20.000
+
+Bedwars.Name = "Bedwars"
+Bedwars.Parent = ScriptGame
+Bedwars.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+Bedwars.BorderSizePixel = 0
+Bedwars.Position = UDim2.new(0.620000124, 0, 0.364548504, 0)
+Bedwars.Size = UDim2.new(0, 151, 0, 41)
+Bedwars.Font = Enum.Font.SourceSans
+Bedwars.Text = "BedWars"
+Bedwars.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bedwars.TextSize = 20.000
+
+BloxFruit.Name = "BloxFruit"
+BloxFruit.Parent = ScriptGame
+BloxFruit.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+BloxFruit.BorderSizePixel = 0
+BloxFruit.Position = UDim2.new(0.0444444455, 0, 0.53511703, 0)
+BloxFruit.Size = UDim2.new(0, 121, 0, 41)
+BloxFruit.Font = Enum.Font.SourceSans
+BloxFruit.Text = "BloxFruit"
+BloxFruit.TextColor3 = Color3.fromRGB(0, 0, 0)
+BloxFruit.TextSize = 20.000
+
+PetSimX.Name = "PetSimX"
+PetSimX.Parent = ScriptGame
+PetSimX.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+PetSimX.BorderSizePixel = 0
+PetSimX.Position = UDim2.new(0.337777764, 0, 0.53511703, 0)
+PetSimX.Size = UDim2.new(0, 117, 0, 41)
+PetSimX.Font = Enum.Font.SourceSans
+PetSimX.Text = "Pet Simulator X"
+PetSimX.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetSimX.TextSize = 20.000
+
+ShindoLife.Name = "ShindoLife"
+ShindoLife.Parent = ScriptGame
+ShindoLife.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+ShindoLife.BorderSizePixel = 0
+ShindoLife.Position = UDim2.new(0.620000124, 0, 0.53511703, 0)
+ShindoLife.Size = UDim2.new(0, 151, 0, 41)
+ShindoLife.Font = Enum.Font.SourceSans
+ShindoLife.Text = "ShindoLife"
+ShindoLife.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShindoLife.TextSize = 20.000
+
+AnimeFighterX.Name = "AnimeFighterX"
+AnimeFighterX.Parent = ScriptGame
+AnimeFighterX.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+AnimeFighterX.BorderSizePixel = 0
+AnimeFighterX.Position = UDim2.new(0.0444444455, 0, 0.712374568, 0)
+AnimeFighterX.Size = UDim2.new(0, 121, 0, 41)
+AnimeFighterX.Font = Enum.Font.SourceSans
+AnimeFighterX.Text = "AnimeFighterSimulator"
+AnimeFighterX.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimeFighterX.TextSize = 14.000
+
+DemonFall.Name = "DemonFall"
+DemonFall.Parent = ScriptGame
+DemonFall.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+DemonFall.BorderSizePixel = 0
+DemonFall.Position = UDim2.new(0.337777764, 0, 0.712374568, 0)
+DemonFall.Size = UDim2.new(0, 117, 0, 41)
+DemonFall.Font = Enum.Font.SourceSans
+DemonFall.Text = "DemonFall"
+DemonFall.TextColor3 = Color3.fromRGB(0, 0, 0)
+DemonFall.TextSize = 20.000
+
+MeepCity.Name = "MeepCity"
+MeepCity.Parent = ScriptGame
+MeepCity.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+MeepCity.BorderSizePixel = 0
+MeepCity.Position = UDim2.new(0.620000124, 0, 0.712374568, 0)
+MeepCity.Size = UDim2.new(0, 151, 0, 41)
+MeepCity.Font = Enum.Font.SourceSans
+MeepCity.Text = "MeepCity"
+MeepCity.TextColor3 = Color3.fromRGB(0, 0, 0)
+MeepCity.TextSize = 20.000
+
+SideBar.Name = "SideBar"
+SideBar.Parent = Frame
+SideBar.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+SideBar.BorderColor3 = Color3.fromRGB(31, 31, 31)
+SideBar.BorderSizePixel = 0
+SideBar.Position = UDim2.new(-0.000603526714, 0, 0.117927246, 0)
+SideBar.Size = UDim2.new(0, 100, 0, 264)
+
+Game.Name = "Game"
+Game.Parent = SideBar
+Game.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Game.BorderColor3 = Color3.fromRGB(31, 31, 31)
+Game.BorderSizePixel = 0
+Game.Size = UDim2.new(0, 100, 0, 34)
+Game.Font = Enum.Font.Fantasy
+Game.Text = "Script Game"
+Game.TextColor3 = Color3.fromRGB(255, 255, 255)
+Game.TextSize = 20.000
+
+AdminScript.Name = "AdminScript"
+AdminScript.Parent = SideBar
+AdminScript.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+AdminScript.BorderColor3 = Color3.fromRGB(31, 31, 31)
+AdminScript.BorderSizePixel = 0
+AdminScript.Position = UDim2.new(0, 0, 0.112956792, 0)
+AdminScript.Size = UDim2.new(0, 100, 0, 34)
+AdminScript.Font = Enum.Font.Fantasy
+AdminScript.Text = "Admin"
+AdminScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminScript.TextSize = 20.000
+
+NonFe.Name = "NonFe"
+NonFe.Parent = SideBar
+NonFe.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+NonFe.BorderColor3 = Color3.fromRGB(31, 31, 31)
+NonFe.BorderSizePixel = 0
+NonFe.Position = UDim2.new(0, 0, 0.225913614, 0)
+NonFe.Size = UDim2.new(0, 100, 0, 34)
+NonFe.Font = Enum.Font.Fantasy
+NonFe.Text = "Non Fe"
+NonFe.TextColor3 = Color3.fromRGB(255, 255, 255)
+NonFe.TextSize = 20.000
+
+FeScript.Name = "FeScript"
+FeScript.Parent = SideBar
+FeScript.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+FeScript.BorderColor3 = Color3.fromRGB(31, 31, 31)
+FeScript.BorderSizePixel = 0
+FeScript.Position = UDim2.new(0, 0, 0.338870436, 0)
+FeScript.Size = UDim2.new(0, 100, 0, 34)
+FeScript.Font = Enum.Font.Fantasy
+FeScript.Text = "Fe Script"
+FeScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+FeScript.TextSize = 20.000
+
+BackDoorExecutor.Name = "BackDoorExecutor"
+BackDoorExecutor.Parent = SideBar
+BackDoorExecutor.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+BackDoorExecutor.BorderColor3 = Color3.fromRGB(31, 31, 31)
+BackDoorExecutor.BorderSizePixel = 0
+BackDoorExecutor.Position = UDim2.new(0, 0, 0.451827258, 0)
+BackDoorExecutor.Size = UDim2.new(0, 100, 0, 34)
+BackDoorExecutor.Font = Enum.Font.Fantasy
+BackDoorExecutor.Text = "Backdoor"
+BackDoorExecutor.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackDoorExecutor.TextSize = 20.000
+
+ComingSoon.Name = "ComingSoon"
+ComingSoon.Parent = SideBar
+ComingSoon.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ComingSoon.BorderColor3 = Color3.fromRGB(31, 31, 31)
+ComingSoon.BorderSizePixel = 0
+ComingSoon.Position = UDim2.new(0, 0, 0.56478405, 0)
+ComingSoon.Size = UDim2.new(0, 100, 0, 114)
+ComingSoon.Font = Enum.Font.Fantasy
+ComingSoon.Text = "ComingSoon"
+ComingSoon.TextColor3 = Color3.fromRGB(255, 255, 255)
+ComingSoon.TextSize = 17.000
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Frame
+TopBar.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TopBar.BorderColor3 = Color3.fromRGB(31, 31, 31)
+TopBar.BorderSizePixel = 0
+TopBar.Position = UDim2.new(-0.000603526714, 0, -0.00230736611, 0)
+TopBar.Size = UDim2.new(0, 550, 0, 41)
+
+TextLabel.Parent = TopBar
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.130909085, 0, 0.0382352807, 0)
+TextLabel.Size = UDim2.new(0, 100, 0, 36)
+TextLabel.Font = Enum.Font.Fantasy
+TextLabel.Text = "IzeKill Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 36.000
+
+ImageLabel.Parent = TopBar
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 40, 0, 37)
+ImageLabel.Image = "rbxassetid://9027436674"
+
+Frame_2.Parent = IzeKillHub
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.11576011, 0, 0.228297681, 0)
+Frame_2.Size = UDim2.new(0, 550, 0, 3)
+
+-- Scripts:
+
+local function POZRIN_fake_script() -- MadCity.LocalScript 
+	local script = Instance.new('LocalScript', MadCity)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V1/main/Main2%20v1.5"))()
+	end)
+end
+coroutine.wrap(POZRIN_fake_script)()
+local function YJQLHI_fake_script() -- JailBreak.LocalScript 
+	local script = Instance.new('LocalScript', JailBreak)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+	end)
+end
+coroutine.wrap(YJQLHI_fake_script)()
+local function ZEQQ_fake_script() -- DaHood.LocalScript 
+	local script = Instance.new('LocalScript', DaHood)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/cjdjmj/new-ui-godmode/main/README.md", true))()
+	end)
+end
+coroutine.wrap(ZEQQ_fake_script)()
+local function ZYRXFKZ_fake_script() -- Arsenal.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaytojuice/Bolts-Hub/main/Script/Free_Executors", true))()
+	end)
+end
+coroutine.wrap(ZYRXFKZ_fake_script)()
+local function TERTQZ_fake_script() -- PhantomForces.LocalScript 
+	local script = Instance.new('LocalScript', PhantomForces)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+	end)
+end
+coroutine.wrap(TERTQZ_fake_script)()
+local function HEGYTCT_fake_script() -- MM2.LocalScript 
+	local script = Instance.new('LocalScript', MM2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/OtarDevv/37923c22312a786f3ac521692b412c41/raw/747834720d202a101630d8f27174dc14494970fe/Murder%2520Mystery%25202"))();
+	end)
+end
+coroutine.wrap(HEGYTCT_fake_script)()
+local function WOQZX_fake_script() -- BuildABoat.LocalScript 
+	local script = Instance.new('LocalScript', BuildABoat)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/8aEXDfEY'))()
+	end)
+end
+coroutine.wrap(WOQZX_fake_script)()
+local function RIKH_fake_script() -- BloxBurg.LocalScript 
+	local script = Instance.new('LocalScript', BloxBurg)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/scripts/master/bloxburg.lua"))()
+	end)
+end
+coroutine.wrap(RIKH_fake_script)()
+local function IKSJR_fake_script() -- Bedwars.LocalScript 
+	local script = Instance.new('LocalScript', Bedwars)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end)
+end
+coroutine.wrap(IKSJR_fake_script)()
+local function AYMPRV_fake_script() -- BloxFruit.LocalScript 
+	local script = Instance.new('LocalScript', BloxFruit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+	end)
+end
+coroutine.wrap(AYMPRV_fake_script)()
+local function NHJXA_fake_script() -- PetSimX.LocalScript 
+	local script = Instance.new('LocalScript', PetSimX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://scriptblox.com/raw/SAZA-HUB_496")()
+	end)
+end
+coroutine.wrap(NHJXA_fake_script)()
+local function IRMLP_fake_script() -- ShindoLife.LocalScript 
+	local script = Instance.new('LocalScript', ShindoLife)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
+	end)
+end
+coroutine.wrap(IRMLP_fake_script)()
+local function YLLXM_fake_script() -- AnimeFighterX.LocalScript 
+	local script = Instance.new('LocalScript', AnimeFighterX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
+	end)
+end
+coroutine.wrap(YLLXM_fake_script)()
+local function AGEIJWK_fake_script() -- DemonFall.LocalScript 
+	local script = Instance.new('LocalScript', DemonFall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/StepBroFurious/Script/main/FuriousFall.lua"))()
+	end)
+end
+coroutine.wrap(AGEIJWK_fake_script)()
+local function IHDRNWK_fake_script() -- MeepCity.LocalScript 
+	local script = Instance.new('LocalScript', MeepCity)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bannable666/Scripts/main/Meep.txt", true))()
+	end)
+end
+coroutine.wrap(IHDRNWK_fake_script)()
