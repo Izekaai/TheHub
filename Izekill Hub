@@ -97,7 +97,7 @@ DaHood.Text = "DaHood"
 DaHood.TextColor3 = Color3.fromRGB(0, 0, 0)
 DaHood.TextSize = 20.000
 DaHood.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/cjdjmj/new-ui-godmode/main/README.md", true))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/m4NXG4QB", true))()
 end)
 
 Arsenal.Name = "Arsenal"
