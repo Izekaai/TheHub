@@ -4,7 +4,7 @@
 -- Instances:
 
 local IzeKillHub = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
+local Main = Instance.new("Frame")
 local ScriptGame = Instance.new("Frame")
 local MadCity = Instance.new("TextButton")
 local JailBreak = Instance.new("TextButton")
@@ -31,7 +31,7 @@ local ComingSoon = Instance.new("TextButton")
 local TopBar = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local ImageLabel = Instance.new("ImageLabel")
-local Frame_2 = Instance.new("Frame")
+local Line = Instance.new("Frame")
 
 --Properties:
 
@@ -39,22 +39,24 @@ IzeKillHub.Name = "IzeKillHub"
 IzeKillHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 IzeKillHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = IzeKillHub
-Frame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-Frame.BorderColor3 = Color3.fromRGB(50, 162, 100)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.11576011, 0, 0.147252753, 0)
-Frame.Size = UDim2.new(0, 550, 0, 300)
-Frame.Active = true
-Frame.Draggable = true
+Main.Name = "Main"
+Main.Parent = IzeKillHub
+Main.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Main.BorderColor3 = Color3.fromRGB(50, 162, 100)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.11576011, 0, 0.147252753, 0)
+Main.Size = UDim2.new(0, 550, 0, 300)
+Main.Active = true
+Main.Draggable = true
 
 ScriptGame.Name = "ScriptGame"
-ScriptGame.Parent = Frame
-ScriptGame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptGame.Parent = Main
+ScriptGame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
 ScriptGame.BackgroundTransparency = 1.000
+ScriptGame.BorderColor3 = Color3.fromRGB(85, 85, 85)
 ScriptGame.BorderSizePixel = 0
-ScriptGame.Position = UDim2.new(0.180000007, 0, 0.120234601, 0)
-ScriptGame.Size = UDim2.new(0, 450, 0, 299)
+ScriptGame.Position = UDim2.new(0.180000007, 0, 0.120234579, 0)
+ScriptGame.Size = UDim2.new(0, 450, 0, 263)
 
 MadCity.Name = "MadCity"
 MadCity.Parent = ScriptGame
@@ -222,7 +224,7 @@ MeepCity.TextColor3 = Color3.fromRGB(0, 0, 0)
 MeepCity.TextSize = 20.000
 
 SideBar.Name = "SideBar"
-SideBar.Parent = Frame
+SideBar.Parent = Main
 SideBar.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 SideBar.BorderColor3 = Color3.fromRGB(31, 31, 31)
 SideBar.BorderSizePixel = 0
@@ -301,7 +303,7 @@ ComingSoon.TextColor3 = Color3.fromRGB(255, 255, 255)
 ComingSoon.TextSize = 17.000
 
 TopBar.Name = "TopBar"
-TopBar.Parent = Frame
+TopBar.Parent = Main
 TopBar.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 TopBar.BorderColor3 = Color3.fromRGB(31, 31, 31)
 TopBar.BorderSizePixel = 0
@@ -324,131 +326,9 @@ ImageLabel.BorderSizePixel = 0
 ImageLabel.Size = UDim2.new(0, 40, 0, 37)
 ImageLabel.Image = "rbxassetid://9027436674"
 
-Frame_2.Parent = IzeKillHub
-Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame_2.BorderSizePixel = 0
-Frame_2.Position = UDim2.new(0.11576011, 0, 0.228297681, 0)
-Frame_2.Size = UDim2.new(0, 550, 0, 3)
-
--- Scripts:
-
-local function POZRIN_fake_script() -- MadCity.LocalScript 
-	local script = Instance.new('LocalScript', MadCity)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V1/main/Main2%20v1.5"))()
-	end)
-end
-coroutine.wrap(POZRIN_fake_script)()
-local function YJQLHI_fake_script() -- JailBreak.LocalScript 
-	local script = Instance.new('LocalScript', JailBreak)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
-	end)
-end
-coroutine.wrap(YJQLHI_fake_script)()
-local function ZEQQ_fake_script() -- DaHood.LocalScript 
-	local script = Instance.new('LocalScript', DaHood)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/cjdjmj/new-ui-godmode/main/README.md", true))()
-	end)
-end
-coroutine.wrap(ZEQQ_fake_script)()
-local function ZYRXFKZ_fake_script() -- Arsenal.LocalScript 
-	local script = Instance.new('LocalScript', Arsenal)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaytojuice/Bolts-Hub/main/Script/Free_Executors", true))()
-	end)
-end
-coroutine.wrap(ZYRXFKZ_fake_script)()
-local function TERTQZ_fake_script() -- PhantomForces.LocalScript 
-	local script = Instance.new('LocalScript', PhantomForces)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
-	end)
-end
-coroutine.wrap(TERTQZ_fake_script)()
-local function HEGYTCT_fake_script() -- MM2.LocalScript 
-	local script = Instance.new('LocalScript', MM2)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://gist.githubusercontent.com/OtarDevv/37923c22312a786f3ac521692b412c41/raw/747834720d202a101630d8f27174dc14494970fe/Murder%2520Mystery%25202"))();
-	end)
-end
-coroutine.wrap(HEGYTCT_fake_script)()
-local function WOQZX_fake_script() -- BuildABoat.LocalScript 
-	local script = Instance.new('LocalScript', BuildABoat)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://pastebin.com/raw/8aEXDfEY'))()
-	end)
-end
-coroutine.wrap(WOQZX_fake_script)()
-local function RIKH_fake_script() -- BloxBurg.LocalScript 
-	local script = Instance.new('LocalScript', BloxBurg)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/scripts/master/bloxburg.lua"))()
-	end)
-end
-coroutine.wrap(RIKH_fake_script)()
-local function IKSJR_fake_script() -- Bedwars.LocalScript 
-	local script = Instance.new('LocalScript', Bedwars)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-	end)
-end
-coroutine.wrap(IKSJR_fake_script)()
-local function AYMPRV_fake_script() -- BloxFruit.LocalScript 
-	local script = Instance.new('LocalScript', BloxFruit)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
-	end)
-end
-coroutine.wrap(AYMPRV_fake_script)()
-local function NHJXA_fake_script() -- PetSimX.LocalScript 
-	local script = Instance.new('LocalScript', PetSimX)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet"https://scriptblox.com/raw/SAZA-HUB_496")()
-	end)
-end
-coroutine.wrap(NHJXA_fake_script)()
-local function IRMLP_fake_script() -- ShindoLife.LocalScript 
-	local script = Instance.new('LocalScript', ShindoLife)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
-	end)
-end
-coroutine.wrap(IRMLP_fake_script)()
-local function YLLXM_fake_script() -- AnimeFighterX.LocalScript 
-	local script = Instance.new('LocalScript', AnimeFighterX)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
-	end)
-end
-coroutine.wrap(YLLXM_fake_script)()
-local function AGEIJWK_fake_script() -- DemonFall.LocalScript 
-	local script = Instance.new('LocalScript', DemonFall)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/StepBroFurious/Script/main/FuriousFall.lua"))()
-	end)
-end
-coroutine.wrap(AGEIJWK_fake_script)()
-local function IHDRNWK_fake_script() -- MeepCity.LocalScript 
-	local script = Instance.new('LocalScript', MeepCity)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bannable666/Scripts/main/Meep.txt", true))()
-	end)
-end
-coroutine.wrap(IHDRNWK_fake_script)()
+Line.Name = "Line"
+Line.Parent = Main
+Line.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(-0.000603526831, 0, 0.121631011, 0)
+Line.Size = UDim2.new(0, 550, 0, 3)
